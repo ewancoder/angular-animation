@@ -1,4 +1,5 @@
-import { AnimationEntryMetadata, trigger, transition, style, animate } from '@angular/core';
+import { AnimationEntryMetadata } from '@angular/core';
+import { trigger, transition, style, animate } from '@angular/core';
 
 export const animations: AnimationEntryMetadata[] = [
     trigger('dropdown', [
